@@ -1,0 +1,18 @@
+---
+description: Portfolio project context — read PROJECT.md before changing code
+alwaysApply: true
+---
+
+# Nouman Portfolio Context
+
+Before editing this site, read **`PROJECT.md`** at the repo root. It documents architecture, sections, design tokens, `initUI` behavior, and known caveats.
+
+## Critical patterns
+
+- Single-page React + Vite portfolio. No router. Sections are composed in `App.jsx`.
+- Almost all styles live in `src/App.css` (dark purple/cyan design tokens). Prefer those tokens over inventing new colors.
+- Interactivity (typed text, nav stuck, mobile menu, scroll reveal, skill bars, counters, tabs, project filters, testimonials slider, contact form mock) lives in `src/components/index.js` via `initUI()`. Preserve required IDs/`data-*`/classes or update `initUI` in the same change.
+- Content is hardcoded in each component under `src/components/`.
+- New JSX should use `className` / `htmlFor` (not HTML `class` / `for`).
+- Contact form is mock-only — no backend unless explicitly adding one.
+- Brand: Nouman — WordPress / WooCommerce / PHP developer; logo mark `N.`
