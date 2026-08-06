@@ -28,7 +28,7 @@ const Hero = () => {
           </p>
 
           <p class="hero-desc">
-            I build powerful, fast WordPress websites and WooCommerce stores that drive real business results. Specialising in custom themes, plugins, and performance-optimised solutions tailored to your goals.
+            I build powerful, fast WordPress websites and WooCommerce store that drive real business results. Specialising in custom themes, plugins, and performance-optimised solutions tailored to your goals.
           </p>
 
           <div class="hero-cta">
