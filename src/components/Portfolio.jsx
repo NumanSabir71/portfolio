@@ -19,13 +19,13 @@ const Portfolio = () => {
       </div>
 
       <div class="proj-grid">
-        <div class="proj-card sr d1" data-cat="woocommerce">
-          <div class="proj-thumb">🛒<div class="proj-overlay"><a href="#" class="proj-obtn"><i class="fas fa-external-link-alt"></i></a><a href="#" class="proj-obtn"><i class="fab fa-github"></i></a></div></div>
+        <div class="proj-card sr d1" data-cat="wordpress">
+          <div class="proj-thumb">🛒<div class="proj-overlay"><a href="https://easypaisa.com.pk/" class="proj-obtn"><i class="fas fa-external-link-alt"></i></a></div></div>
           <div class="proj-body">
-            <span class="proj-cat">WooCommerce</span>
-            <h3>LuxeCart — Fashion E-Commerce</h3>
+            <span class="proj-cat">Portfolio</span>
+            <h3>easypaisa</h3>
             <p>High-end fashion store with custom WooCommerce checkout, size guides, and loyalty rewards system.</p>
-            <div class="proj-stack"><span>WordPress</span><span>WooCommerce</span><span>Stripe</span><span>ACF</span></div>
+            <div class="proj-stack"><span>WordPress</span><span>Elementor</span><span>Theme Development</span><span>ACF</span></div>
           </div>
         </div>
         <div class="proj-card sr d2" data-cat="wordpress">
