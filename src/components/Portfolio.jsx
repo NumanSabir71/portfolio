@@ -21,7 +21,7 @@ const Portfolio = () => {
 
       <div class="proj-grid">
         <div class="proj-card sr d1" data-cat="wordpress">
-          <div class="proj-thumb"><img src = '/public/images/easypaisa.png' /><div class="proj-overlay"><a href="https://easypaisa.com.pk/" class="proj-obtn"><i class="fas fa-external-link-alt"></i></a></div></div>
+          <div class="proj-thumb"><img src = '/images/easypaisa.png' /><div class="proj-overlay"><a href="https://easypaisa.com.pk/" class="proj-obtn"><i class="fas fa-external-link-alt"></i></a></div></div>
           <div class="proj-body">
             <span class="proj-cat">Portfolio</span>
             <h3>easypaisa</h3>
