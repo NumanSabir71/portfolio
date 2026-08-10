@@ -20,11 +20,11 @@ const Portfolio = () => {
 
       <div class="proj-grid">
         <div class="proj-card sr d1" data-cat="wordpress">
-          <div class="proj-thumb">🛒<div class="proj-overlay"><a href="https://easypaisa.com.pk/" class="proj-obtn"><i class="fas fa-external-link-alt"></i></a></div></div>
+          <div class="proj-thumb"><img src = "/src/assets/easypaisa.png" /><div class="proj-overlay"><a href="https://easypaisa.com.pk/" class="proj-obtn"><i class="fas fa-external-link-alt"></i></a></div></div>
           <div class="proj-body">
             <span class="proj-cat">Portfolio</span>
             <h3>easypaisa</h3>
-            <p>High-end fashion store with custom WooCommerce checkout, size guides, and loyalty rewards system.</p>
+            <p>easypaisa Bank Limited, stylized as easypaisa, is a Pakistani digital bank based in Karachi. It provides services such as mobile wallet, mobile payments, and branchless banking.</p>
             <div class="proj-stack"><span>WordPress</span><span>Elementor</span><span>Theme Development</span><span>ACF</span></div>
           </div>
         </div>
