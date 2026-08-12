@@ -76,7 +76,7 @@ const Portfolio = () => {
           </div>
         </div>
         <div class="proj-card sr d1" data-cat="woocommerce">
-          <div class="proj-thumb"><img src = '/images/elgh-p.png' /><div class="proj-overlay"><a href="https://www.bakemartathome.com/" class="proj-obtn"><i class="fas fa-external-link-alt"></i></a></div></div>
+          <div class="proj-thumb"><img src = '/images/bakemart.png' /><div class="proj-overlay"><a href="https://www.bakemartathome.com/" class="proj-obtn"><i class="fas fa-external-link-alt"></i></a></div></div>
           <div class="proj-body">
             <span class="proj-cat">Ecommerce</span>
             <h3>Bakemartathome</h3>
@@ -121,6 +121,26 @@ const Portfolio = () => {
             <h3>Mithila Art Ecommerce Theme</h3>
             <p>Custom WordPress + WooCommerce theme for Mithila Design — an artisan store celebrating Mithila art from Nepal and the Madhubani painting tradition.</p>
             <div class="proj-stack"><span>WordPress</span><span>PHP</span><span>Woocommerce Templates</span><span>Javscript</span></div>
+          </div>
+          
+        </div>
+        <div class="proj-card sr d3" data-cat="shopify">
+          <div class="proj-thumb"><img src = '/images/rasasi.png' /><div class="proj-overlay"><a href="https://imrasasi.com/" class="proj-obtn"><i class="fas fa-external-link-alt"></i></a></div></div>
+          <div class="proj-body">
+            <span class="proj-cat">Shopify Store</span>
+            <h3>ImRasasi</h3>
+            <p>Discover our collection of WOMEN'S PERFUMES at Savia Exclusive ✔️ Free Samples ✔️ Free Shipping</p>
+            <div class="proj-stack"><span>Shopify</span><span>Liquid</span><span>Payment Gateway Integration</span><span>Multicurrency</span></div>
+          </div>
+          
+        </div>
+        <div class="proj-card sr d1" data-cat="shopify">
+          <div class="proj-thumb"><img src = '/images/as.png' /><div class="proj-overlay"><a href="https://aurorascents.com/" class="proj-obtn"><i class="fas fa-external-link-alt"></i></a></div></div>
+          <div class="proj-body">
+            <span class="proj-cat">Shopify Store</span>
+            <h3>Aurora Scents</h3>
+            <p>Discover luxurious fragrances at AuroraScents. Shop our curated collection of perfumes and home scents for pure elegance and captivating aromas.</p>
+            <div class="proj-stack"><span>Shopify</span><span>Liquid</span><span>Payment Gateway Integration</span></div>
           </div>
           
         </div>
