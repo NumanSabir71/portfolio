@@ -16,6 +16,7 @@ const Portfolio = () => {
           <button class="fbtn" data-filter="wordpress">WordPress</button>
           <button class="fbtn" data-filter="woocommerce">WooCommerce</button>
           <button class="fbtn" data-filter="plugin">Plugin</button>
+          <button class="fbtn" data-filter="shopify">Shopify</button>
         </div>
       </div>
 
@@ -30,49 +31,98 @@ const Portfolio = () => {
           </div>
         </div>
         <div class="proj-card sr d2" data-cat="wordpress">
-          <div class="proj-thumb">🏢<div class="proj-overlay"><a href="#" class="proj-obtn"><i class="fas fa-external-link-alt"></i></a><a href="#" class="proj-obtn"><i class="fab fa-github"></i></a></div></div>
+          <div class="proj-thumb"><img src = '/images/protek.png' /><div class="proj-overlay"><a href="https://www.proteklaundry.com/" class="proj-obtn"><i class="fas fa-external-link-alt"></i></a></div></div>
           <div class="proj-body">
-            <span class="proj-cat">Corporate Website</span>
-            <h3>BuildCo — Construction Company</h3>
-            <p>Custom WordPress theme with project showcase, team management, and lead capture integrations.</p>
-            <div class="proj-stack"><span>WordPress</span><span>Custom Theme</span><span>ACF</span><span>Rank Math</span></div>
+            <span class="proj-cat">Ecommerce B2B</span>
+            <h3>Protek Laundry</h3>
+            <p>Protek Laundry is the best laundry equipment supplier company in Dubai, UAE, Oman, Saudi Arabia, Maldives, Bahrain, Sri Lanka,Tanzania, Africa.</p>
+            <div class="proj-stack"><span>WordPress</span><span>PHP</span><span>ACF</span><span>Woocommerce</span></div>
           </div>
         </div>
         <div class="proj-card sr d3" data-cat="plugin">
-          <div class="proj-thumb">🔌<div class="proj-overlay"><a href="#" class="proj-obtn"><i class="fas fa-external-link-alt"></i></a><a href="#" class="proj-obtn"><i class="fab fa-github"></i></a></div></div>
+          <div class="proj-thumb">🔌<div class="proj-overlay"><a href="https://mithilacenter.org/" class="proj-obtn"><i class="fas fa-external-link-alt"></i></a><a href="https://github.com/NumanSabir71/events_plugin" class="proj-obtn"><i class="fab fa-github"></i></a></div></div>
           <div class="proj-body">
             <span class="proj-cat">Custom Plugin</span>
-            <h3>BookEase — Appointment Plugin</h3>
-            <p>WordPress booking plugin with calendar sync, SMS reminders, and payment integration via Stripe.</p>
-            <div class="proj-stack"><span>PHP</span><span>WordPress API</span><span>Stripe</span><span>Twilio</span></div>
+            <h3>Mithila-Events Plugin</h3>
+            <p>WordPress plugin for Mithila Art / Mithila Center — a full event booking system with volunteer and sponsor registration, paid ticketing, art-piece checkout, and content modules for leadership, partners, press, recognition, and artists.</p>
+            <div class="proj-stack"><span>PHP</span><span>Javascript</span><span>Stripe</span><span>Custom Post Types</span></div>
           </div>
         </div>
         <div class="proj-card sr d1" data-cat="wordpress">
-          <div class="proj-thumb">📰<div class="proj-overlay"><a href="#" class="proj-obtn"><i class="fas fa-external-link-alt"></i></a><a href="#" class="proj-obtn"><i class="fab fa-github"></i></a></div></div>
+          <div class="proj-thumb"><img src = '/images/keepcoders.png' /><div class="proj-overlay"><a href="https://keepcoders.com/" class="proj-obtn"><i class="fas fa-external-link-alt"></i></a></div></div>
           <div class="proj-body">
-            <span class="proj-cat">News & Magazine</span>
-            <h3>DailyPulse — News Portal</h3>
-            <p>High-traffic news site handling 100k+ daily visitors with custom Gutenberg blocks and ad management.</p>
-            <div class="proj-stack"><span>WordPress</span><span>Gutenberg</span><span>WP Rocket</span><span>Cloudflare</span></div>
+            <span class="proj-cat">Portfolio</span>
+            <h3>Keepcoders</h3>
+            <p>From predictive analytics to machine learning, KeepCoders helps businesses automate, optimize, and innovate through cutting-edge AI technology.</p>
+            <div class="proj-stack"><span>WordPress</span><span>Elementor</span><span>ACF</span><span>GSAP</span></div>
           </div>
         </div>
         <div class="proj-card sr d2" data-cat="woocommerce">
-          <div class="proj-thumb">🎓<div class="proj-overlay"><a href="#" class="proj-obtn"><i class="fas fa-external-link-alt"></i></a><a href="#" class="proj-obtn"><i class="fab fa-github"></i></a></div></div>
+          <div class="proj-thumb"><img src = '/images/elng.png' /><div class="proj-overlay"><a href="https://electromart.com.ng/" class="proj-obtn"><i class="fas fa-external-link-alt"></i></a></div></div>
           <div class="proj-body">
-            <span class="proj-cat">WooCommerce</span>
-            <h3>EduShop — Course Marketplace</h3>
-            <p>Online course store with WooCommerce Subscriptions, drip content, and student progress tracking.</p>
-            <div class="proj-stack"><span>WordPress</span><span>WooCommerce</span><span>LearnDash</span><span>WPML</span></div>
+            <span class="proj-cat">Ecommerce</span>
+            <h3>Electromart Nigeria</h3>
+            <p>Shop quality home appliances and electronics at Electromart Nigeria. Discover top brands, great prices, and fast delivery across Nigeria.</p>
+            <div class="proj-stack"><span>WordPress</span><span>WooCommerce</span><span>PHP</span><span>Hooks</span></div>
           </div>
         </div>
+        <div class="proj-card sr d3" data-cat="woocommerce">
+          <div class="proj-thumb"><img src = '/images/elgh-p.png' /><div class="proj-overlay"><a href="https://www.electromart.com.gh/" class="proj-obtn"><i class="fas fa-external-link-alt"></i></a></div></div>
+          <div class="proj-body">
+            <span class="proj-cat">Ecommerce</span>
+            <h3>Electromart Ghana</h3>
+            <p>Discover unbeatable deals on the latest tech and home appliances at Electromart Ghana! Shop now for affordable prices and exceptional customer service.</p>
+            <div class="proj-stack"><span>WordPress</span><span>WooCommerce</span><span>PHP</span><span>Hooks</span></div>
+          </div>
+        </div>
+        <div class="proj-card sr d1" data-cat="woocommerce">
+          <div class="proj-thumb"><img src = '/images/elgh-p.png' /><div class="proj-overlay"><a href="https://www.bakemartathome.com/" class="proj-obtn"><i class="fas fa-external-link-alt"></i></a></div></div>
+          <div class="proj-body">
+            <span class="proj-cat">Ecommerce</span>
+            <h3>Bakemartathome</h3>
+            <p>Welcome to Bakemart! We are excited to offer a wide range of delicious baked and frozen goods for our customers to shop from the comfort of your own homes.</p>
+            <div class="proj-stack"><span>WordPress</span><span>WooCommerce</span><span>PHP</span><span>Elementor</span></div>
+          </div>
+        </div>
+        <div class="proj-card sr d2" data-cat="wordpress">
+          <div class="proj-thumb"><img src = '/images/garage.png' /><div class="proj-overlay"><a href="https://garagestudio.ae/" class="proj-obtn"><i class="fas fa-external-link-alt"></i></a></div></div>
+          <div class="proj-body">
+            <span class="proj-cat">Portfolio</span>
+            <h3>Garage Studio</h3>
+            <p>Step into Garage Studio, the premier professional photography studio for corporate photography, event management, and more. Visit us today!</p>
+            <div class="proj-stack"><span>WordPress</span><span>Elementor</span><span>Booking</span><span>Membership</span></div>
+          </div>
+          
+        </div>
         <div class="proj-card sr d3" data-cat="plugin">
-          <div class="proj-thumb">📊<div class="proj-overlay"><a href="#" class="proj-obtn"><i class="fas fa-external-link-alt"></i></a><a href="#" class="proj-obtn"><i class="fab fa-github"></i></a></div></div>
+          <div class="proj-thumb">🔌<div class="proj-overlay"><a href="https://github.com/NumanSabir71/garage_membership" class="proj-obtn"><i class="fab fa-github"></i></a></div></div>
           <div class="proj-body">
             <span class="proj-cat">Custom Plugin</span>
-            <h3>ReportGen — WooCommerce Analytics</h3>
-            <p>Custom analytics dashboard plugin with revenue charts, product performance, and CSV export.</p>
-            <div class="proj-stack"><span>PHP</span><span>WooCommerce Hooks</span><span>Chart.js</span><span>MySQL</span></div>
+            <h3>Garage Membership</h3>
+            <p>Built a structured, searchable database of creative professionals so the Garage Studio team can segment members (by profession, camera brand, interests, location, etc.)</p>
+            <div class="proj-stack"><span>WordPress</span><span>PHP</span><span>Shortcodes</span><span>Custom Post Types</span></div>
           </div>
+          
+        </div>
+        <div class="proj-card sr d1" data-cat="wordpress">
+          <div class="proj-thumb"><img src = '/images/follium.png' /><div class="proj-overlay"><a href="https://folium.ai/" class="proj-obtn"><i class="fas fa-external-link-alt"></i></a></div></div>
+          <div class="proj-body">
+            <span class="proj-cat">Portfolio</span>
+            <h3>Follium AI</h3>
+            <p>We build and provide AI, Data, and Cloud engineering solutions that automate processes, improve decision-making, and help enterprises scale.</p>
+            <div class="proj-stack"><span>WordPress</span><span>PHP</span><span>ACF</span><span>Gutenberg</span></div>
+          </div>
+          
+        </div>
+        <div class="proj-card sr d2" data-cat="wordpress">
+          <div class="proj-thumb"><img src = '/images/mithilaart.png' /><div class="proj-overlay"><a href="https://github.com/NumanSabir71/mithila_artist" class="proj-obtn"><i class="fab fa-github"></i></a></div></div>
+          <div class="proj-body">
+            <span class="proj-cat">Custom Theme</span>
+            <h3>Mithila Art Ecommerce Theme</h3>
+            <p>Custom WordPress + WooCommerce theme for Mithila Design — an artisan store celebrating Mithila art from Nepal and the Madhubani painting tradition.</p>
+            <div class="proj-stack"><span>WordPress</span><span>PHP</span><span>Woocommerce Templates</span><span>Javscript</span></div>
+          </div>
+          
         </div>
       </div>
     </div>
