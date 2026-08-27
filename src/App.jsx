@@ -8,8 +8,6 @@ import Skills from './components/Skills.jsx'
 import Offer from './components/Offer.jsx'
 import Portfolio from './components/Portfolio.jsx'
 import Journey from './components/Journey.jsx'
-import Stats from './components/Stats.jsx'
-import Testimonials from './components/Testimonials.jsx'
 import Contact from './components/Contact.jsx'
 import './App.css'
 
